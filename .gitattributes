@@ -1,0 +1,8 @@
+# Ignore generated HTML files from language stats
+*.html linguist-vendored
+
+# Ignore data files from language stats
+data/*.csv linguist-vendored
+
+# Mark Python files as primary language
+*.py linguist-language=Python
