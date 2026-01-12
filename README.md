@@ -20,11 +20,11 @@ The core of the system is built with a focus on scalability and resilience:
 
 ## File Overview
 
-- `src/calculator_statistical.py`: Core logic for demand distribution and statistical safety stock.
-- `src/optimizer_heuristic.py`: Rule-based adjustment engine for standard supply chain scenarios.
-- `src/optimizer_ai.py`: Asynchronous engine for GenAI-driven optimization and API management.
-- `src/benchmarker_performance.py`: Evaluation suite for cross-method performance analysis.
-- `src/visualizer_dashboard.py`: Reporting suite for executive dashboards and SKU-level insights.
+- `calculator_statistical.py`: Core logic for demand distribution and statistical safety stock.
+- `optimizer_heuristic.py`: Rule-based adjustment engine for standard supply chain scenarios.
+- `optimizer_ai.py`: Asynchronous engine for GenAI-driven optimization and API management.
+- `benchmarker_performance.py`: Evaluation suite for cross-method performance analysis.
+- `visualizer_dashboard.py`: Reporting suite for executive dashboards and SKU-level insights.
 
 ## Usage
 
@@ -36,7 +36,7 @@ The core of the system is built with a focus on scalability and resilience:
    Add `GEMINI_API_KEY` to a `.env` file in the root directory.
 3. **Execution**:
    ```bash
-   python3 src/benchmarker_performance.py
+   python3 benchmarker_performance.py
    ```
 
 ## Performance Metrics
